@@ -5,7 +5,6 @@ using UnityEngine;
 public class controller : MonoBehaviour
 {
     public Vector3 speed;
-     
 
     // Start is called before the first frame update
     void Start()
@@ -17,5 +16,6 @@ public class controller : MonoBehaviour
     void Update()
     {
         transform.rotation = Quaternion.Euler(speed + transform.rotation.eulerAngles);
+        
     }
 }
