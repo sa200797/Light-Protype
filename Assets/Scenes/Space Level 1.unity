@@ -163,9 +163,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 710584934}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a2efca238183e4bb928ba989779ae3, type: 3}
+  m_Script: {fileID: 11500000, guid: f359731bd22b8e349a12f1ae89bb6621, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  starsMax: 1000
+  starSize: 0.2
+  starDistance: 100
+  starClipDistance: 1
 --- !u!199 &710584937
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -4963,11 +4967,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 814622310}
-  m_LocalRotation: {x: -0, y: 0.53568286, z: -0, w: 0.8444193}
+  m_LocalRotation: {x: 0, y: 0.6646502, z: 0, w: 0.7471547}
   m_LocalPosition: {x: -1.15, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 710584935}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 64.78001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 83.311, z: 0}
